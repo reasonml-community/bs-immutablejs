@@ -1,0 +1,4 @@
+{
+  "name": "immutablejs-bindings",
+  "sources": ["src"],
+}

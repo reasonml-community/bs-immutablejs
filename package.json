@@ -1,0 +1,15 @@
+{
+  "name": "immutableJsRe",
+  "version": "0.0.1",
+  "description": "Reason + BuckleScript bindings to Immutable.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "bsb -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^1.4.3"
+  }
+}
