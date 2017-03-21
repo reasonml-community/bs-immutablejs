@@ -1,5 +1,5 @@
 {
-  "name": "immutableJsRe",
+  "name": "bs-immutablejs",
   "version": "0.0.1",
   "description": "Reason + BuckleScript bindings to Immutable.js",
   "main": "index.js",

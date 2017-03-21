@@ -1,4 +1,4 @@
 {
-  "name": "immutablejs-bindings",
+  "name": "bs-immutablejs",
   "sources": ["src"],
 }
