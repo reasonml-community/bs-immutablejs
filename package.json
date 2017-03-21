@@ -4,12 +4,13 @@
   "description": "Reason + BuckleScript bindings to Immutable.js",
   "main": "index.js",
   "scripts": {
-    "start": "bsb -w"
+    "start": "bsb -w",
+    "clean": "bsb -clean-world"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bs-platform": "^1.4.3"
+    "bs-platform": "^1.5.1"
   }
 }
