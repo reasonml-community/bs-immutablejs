@@ -19,7 +19,8 @@ module OrderedMap = {
 
 module Map = {
   type t 'key 'value;
-  external get : t 'key 'value => 'key => Js.undefined 'value = "" [@@bs.send];
+  external get : t 'key 'value => 'key => option 'value =
+    "" [@@bs.send] [@@bs.return undefined_to_opt];
   external filter : ('value => 'key => t 'key 'value => Js.boolean) => t 'key 'value =
     "" [@@bs.send.pipe : t 'key 'value];
   external map : ('value => 'key => t 'key 'value => 'value2) => t 'key 'value2 =
