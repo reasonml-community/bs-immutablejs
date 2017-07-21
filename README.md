@@ -4,7 +4,7 @@
 
 ## Documentation
 
-The source is a [single file](https://github.com/BuckleTypes/bs-immutablejs/blob/master/src/immJsRe.re) of BuckleScript `external`s. The API corresponds to Immutable.js' API.
+The source is a [single file](https://github.com/reasonml-community/bs-immutablejs/blob/master/src/immJsRe.re) of BuckleScript `external`s. The API corresponds to Immutable.js' API.
 
 Example usage:
 
