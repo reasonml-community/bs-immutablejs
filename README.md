@@ -1,6 +1,6 @@
 # bs-immutablejs
 
-**Note**: these are **bindings** to the [Immutable.js](https://facebook.github.io/immutable-js/) library. These are only meant to be used to interoperate with existing JavaScript code; In OCaml/BuckleScript/Reason, we have more lightweight immutable (and optionally mutable) data structures by default (list, record, hashmap, set, and upcoming data structures).
+**Note**: these are **bindings** to the [Immutable.js](https://facebook.github.io/immutable-js/) library. These are only meant to be used to interoperate with existing JavaScript code; In Reason/BS, we have more lightweight immutable (and optionally mutable) data structures by default (list, record, hashmap, set, and upcoming data structures). New Reason/BS projects projects don't need bs-immutablejs.
 
 ## Documentation
 
