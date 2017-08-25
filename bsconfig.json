@@ -1,4 +1,5 @@
 {
   "name": "bs-immutablejs",
-  "sources": ["src"],
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": ["src"]
 }
