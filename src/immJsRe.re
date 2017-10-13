@@ -85,7 +85,7 @@ module Seq = {
   external sort : ('value => 'value => int) => t 'value = "" [@@bs.send.pipe : t 'value];
   external fromArray : array 'value => t 'value = "Seq" [@@bs.module "immutable"];
   external fromList : List.t 'value => t 'value = "Seq" [@@bs.module "immutable"];
-  external slice : begin::int? => end::int? => t 'value = "" [@@bs.send.pipe : t 'value];
+  external slice : begin_::int? => end_::int? => t 'value = "" [@@bs.send.pipe : t 'value];
   external join : t 'value => string => string = "" [@@bs.send];
   external map : ('value => int => t 'value => 'value2) => t 'value2 =
     "" [@@bs.send.pipe : t 'value];
