@@ -9,16 +9,14 @@ The source is a [single file](https://github.com/reasonml-community/bs-immutable
 Example usage:
 
 ```reason
-let greeting = ImmutableJsRe.List.fromArray [|"hello", "world"|];
+let greeting = ImmutableJsRe.List.fromArray([|"hello", "world"|]);
 
-let extendedGreeting = ImmutableJsRe.List.push "how are you" greeting;
+let extendedGreeting = ImmutableJsRe.List.push("how are you", greeting);
 
-let reallyExtendedGreeting = ImmutableJsRe.List.(
-  extendedGreeting
-  |> push "I'm fine"
-  |> push "thank you"
-  |> push "and you?"
-);
+let reallyExtendedGreeting =
+  ImmutableJsRe.List.(
+    extendedGreeting |> push("I'm fine") |> push("thank you") |> push("and you?")
+  );
 ```
 
 Generated code:
