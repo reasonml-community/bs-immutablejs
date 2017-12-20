@@ -30,6 +30,21 @@ var extendedGreeting = greeting.push("how are you");
 extendedGreeting.push("I'm fine").push("thank you").push("and you?");
 ```
 
+## Transitioning to Idiomatic Reason/BuckleScript Data Structures
+
+Here's a table of Immutable.js data structures and their Reason/BuckleScript equivalents. Reason/BS provide the data structures out of the box.
+
+Immutable.js | Reason/BuckleScript
+----|-----
+List | List
+Map | Map
+OrderedMap | Nothing yet
+Set | Set
+OrderedSet | Nothing yet
+Stack | List
+Record | Record
+Seq | Use `lazy`
+
 ## Contributing
 
 Prerequisite: `https://github.com/reasonml/reason-cli`.
