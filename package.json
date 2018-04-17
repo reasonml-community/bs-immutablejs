@@ -1,6 +1,6 @@
 {
   "name": "bs-immutablejs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Reason + BuckleScript bindings to Immutable.js",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^2.0.0"
+    "bs-platform": "^3.0.0"
   }
 }

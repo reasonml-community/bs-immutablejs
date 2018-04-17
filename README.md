@@ -11,11 +11,14 @@ Example usage:
 ```reason
 let greeting = ImmutableJsRe.List.fromArray([|"hello", "world"|]);
 
-let extendedGreeting = ImmutableJsRe.List.push("how are you", greeting);
+let extendedGreeting = ImmutableJsRe.List.push(greeting, "how are you");
 
 let reallyExtendedGreeting =
   ImmutableJsRe.List.(
-    extendedGreeting |> push("I'm fine") |> push("thank you") |> push("and you?")
+    extendedGreeting
+    |. push("I'm fine")
+    |. push("thank you")
+    |. push("and you?")
   );
 ```
 
@@ -38,9 +41,9 @@ Immutable.js | Reason/BuckleScript
 ----|-----
 List | List
 Map | Map
-OrderedMap | Nothing yet
+OrderedMap | [Belt Map](https://bucklescript.github.io/bucklescript/api/Belt.Map.html)
 Set | Set
-OrderedSet | Nothing yet
+OrderedSet | [Belt Set](https://bucklescript.github.io/bucklescript/api/Belt.Map.html)
 Stack | List
 Record | Record
 Seq | Use `lazy`
