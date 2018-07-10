@@ -115,6 +115,7 @@ module Seq = {
     (t('value), ~begin_: int=?, ~end_: int=?, unit) => t('value) =
     "";
   [@bs.send] external join : (t('value), string) => string = "";
+  [@bs.send] external take : (t('value), int) => t('value) = "";
   [@bs.send]
   external map :
     (t('value1), ('value, int, t('value)) => 'value2) => t('value2) =
